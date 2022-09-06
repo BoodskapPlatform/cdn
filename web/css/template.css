@@ -94,11 +94,11 @@ h4[data-color="white"] {color: #fff;}
 /* Icomoon icons */
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon/icomoon.eot?kyo8m');
-  src:  url('../fonts/icomoon/icomoon.eot?kyo8m#iefix') format('embedded-opentype'),
-	url('../fonts/icomoon/icomoon.ttf?kyo8m') format('truetype'),
-	url('../fonts/icomoon/icomoon.woff?kyo8m') format('woff'),
-	url('../fonts/icomoon/icomoon.svg?kyo8m#icomoon') format('svg');
+  src:  url('https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/fonts/icomoon/icomoon.eot?kyo8m');
+  src:  url('https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/fonts/icomoon/icomoon.eot?kyo8m#iefix') format('embedded-opentype'),
+	url('https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/fonts/icomoon/icomoon.ttf?kyo8m') format('truetype'),
+	url('https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/fonts/icomoon/icomoon.woff?kyo8m') format('woff'),
+	url('https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/fonts/icomoon/icomoon.svg?kyo8m#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -2714,7 +2714,7 @@ a.grayHover img {position:relative;}
 .services_box--modern.sb--hasicon .services_box__list li {padding-left: 100px; padding-bottom: 15px;}
 
 #cookie-msg{
-	z-index: 9;
+	z-index: 999;
 }
 
 
@@ -6450,8 +6450,15 @@ ul.project-list.style2 .prj-info {-webkit-transition:all 0.15s ease-out; transit
 .photo-wall .pw-details h5 {margin-top: 0;}
 /* end FreeWall Gallery */
 
-.g-recaptcha {overflow: hidden; display: inline-block; padding-left: 0px; margin-bottom: 15px;}
+.g-recaptcha {overflow: hidden; display: inline-block; padding-left: 0px; margin-bottom: 8px;}
 
+.contact_val{
+	margin-bottom: 8px;
+}
+
+#recaptcha_val{
+	line-height: normal;
+}
 
 /* One Page */
 .section-video-icons .left-side {background-color: rgba(61,61,61,0.7) !important; padding-right: 50px !important;}
@@ -7418,7 +7425,7 @@ transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);}
 
 
 
-@media only screen and (min-width:322px) and (max-width:374px) {
+@media only screen and (min-width:322px) and (max-width:375px) {
 	.home-head-3 {
 		font-size: 32px !important;
 	}
@@ -7479,6 +7486,10 @@ transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);}
 		padding-top: 70px !important;
 	}
 
+	.tbk__title {
+		font-size: 18px;
+	}
+
 }
 
 @media only screen and (max-width: 600px)  {
@@ -7514,6 +7525,10 @@ transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);}
 		margin-bottom: 20px;
 	}
 
+}
+
+.embed-responsive img{
+	width: 280px;
 }
 
 @media only screen and (min-width:1024px) and (max-width:1400px)  {
