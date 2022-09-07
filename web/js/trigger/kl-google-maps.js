@@ -20,7 +20,7 @@
 			latitude: 32.9873244,
 			longitude: -96.9924894,
 			icon: {
-				image: "/images/map-marker.png",
+				image: "https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/images/map-marker.png",
 				iconsize: [32, 39], // w, h
 				iconanchor: [13,39] // x, y
 			},
@@ -30,7 +30,7 @@
 			latitude: 13.0493625,
 			longitude: 80.201923,
 			icon: {
-				image: "/images/map-marker.png",
+				image: "https://cdn.jsdelivr.net/gh/BoodskapPlatform/cdn/web/images/map-marker.png",
 				iconsize: [32, 39], // w, h
 				iconanchor: [13, 39] // x, y
 			},
