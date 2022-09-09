@@ -1,16 +1,3 @@
-/* ==========================================================================
-
-	Responsive CSS Stylesheet.
-
-	This stylesheet contains responsive styles for Kallyas Template.
-	We'll just add tweaks however this will contains the future 
-	responsive updates styles of this template. 
-	
-	Do not change nothing as it will be constantly updated and your work might 
-	get overwritten.
-
-========================================================================== */
-
 
 .clearfix { *zoom: 1; }
 .hide-text { font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0;}
@@ -39,19 +26,10 @@
 	.contact_form .form-horizontal .controls { margin-left: 0;}
 }
 
-
-/*-----------------------------------------------------------------------------------*/
-/*  Kallyas EDIT
-/*-----------------------------------------------------------------------------------*/
-
-/* Higher screens+ */
 @media only screen and (min-width : 1921px){
-	/* Force full width images on higher res like 1921+ wide */
 	.force-img-fullwidth .slides li img {width:100%;}
 }
 
-
-/** Desktop+ **/
 @media (min-width: 1200px) {
 
 	body input,
@@ -61,28 +39,14 @@
 	body .thumbnails {margin-left: -30px; }
 	body .thumbnails > li {margin-left: 30px; }
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
-	
-	/**** Header ****/
 		.site-header-main-center {margin-right: auto; margin-left: 50px;}
 		.chaser .main-menu .hg_mega_container {width: 1110px;}
 		body.boxed-layout.sticky-header #header {left: auto; width: 1194px;}
 
-		/*** Header Styles ***/
 		
-
-		/** Header style 9 **/
 		.site-header[data-header-style="9"] .main-nav {margin-left: 50px;}
+
 		
-	/**** end Header ****/
-
-
-	/**** Elements ****/
-
-		/* Button element Width presets */
 		.btn-fullwidth {width:100%;}
 		.btn-halfwidth {width:50%;}
 		.btn-third {width:33.33%;}
@@ -178,21 +142,10 @@
 
 /** Laptop **/
 @media (max-width: 1200px) {
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-	
 	.container_fluid .row {padding-left: 15px; padding-right: 15px;}
 
-
-	/**** Header ****/
 		.support-panel-close { top: 5px; right: 5px; border-radius: 0; width: 40px; height: 40px; line-height: 40px;}
 
-
-	/**** end Header ****/
-
-	
-	/**** Elements ****/
 		.kl-iconbox--fright .kl-iconbox__icon-wrapper {float: right;}
 
 		.world-map-offices {max-height: 550px; overflow: auto; max-width: calc(100% - 30px);}
@@ -206,99 +159,61 @@
 
 		.kl-bg-source__bgimage.parallax {background-size: initial;}
 
-
-		/* Action box */
 		.action_box {text-align: center;}
 
-
-		/* Big social */
 		.bigsocialblock--style2 .bigsocialblock__social-icon {opacity: 0.25;}
 		.bigsocialblock--style2 .bigsocialblock__item:hover .bigsocialblock__social-icon {opacity: 0.4;}
-
-		/* Skills diagram */
 		.kl-skills-diagram .kl-skills-legend {position: static; left: auto; top: auto;}
 
-		/* Video background caption */
 		.sc__video-line {font-size: 30px;}
 		.sc--videobg:not(.static-content--fullscreen) {min-height: 500px;}
 		.sc--videobg .static-content__inner {position: absolute; bottom:30px; width: 100%;}
-
 
 		.section-video-icons .right-side,
 		.section-video-icons .left-side {padding: 0 !important;}
 		.section-video-icons .kl-iconbox__icon-wrapper {max-width: 220px;}
 
-		/* Buttons */
 		.btn {white-space: normal;}
 		.btn-forth {min-width: 25%;}
-	/**** end Elements ****/
 
-
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
-/** Laptop+ **/
 @media (min-width: 992px) {
 	.nav-collapse.collapse {height: auto !important; overflow: visible !important; }
 	.v-hidden { visibility: hidden; }
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-	
-		/**** Header ****/
-
-			/*** Menu ***/
 			.menu-item-mega-parent.dropdown { position: inherit !important;}
 			body.one-page .main-nav > ul > li > a {font-size: 13px;}
 
-			/*** Header Styles ***/
-				/** Header style 3 **/
 				.site-header[data-header-style="3"] .site-header-bottom {margin: 10px 0 15px;}
 				
-
-				/** Header style 4 **/
 				.site-header[data-header-style="4"] .main-nav ul li:hover > .hg_mega_container {left: -215px;}
 				.site-header[data-header-style="4"] .main-nav .hg_mega_container {width: 1110px;}
 				.site-header[data-header-style="4"] .main-nav ul li:hover > .hg_mega_container {margin-top: 10px;}
 
-				/** Header style 5 **/
 				.site-header[data-header-style="5"] .main-nav ul li:hover > .hg_mega_container {left: -215px;}
 				.site-header[data-header-style="5"] .main-nav .hg_mega_container {width: 1110px;}
 
-
-				/** Header style 6 **/
 				.site-header[data-header-style="6"] .main-nav ul li:hover > .hg_mega_container {left: -205px;}
 				.site-header[data-header-style="6"] .main-nav .hg_mega_container {width: 1110px;}
 
-				/** Header style 7 **/
 				.site-header[data-header-style="7"] .main-nav ul li:hover > .hg_mega_container {left: -205px;}
 				.site-header[data-header-style="7"] .main-nav .hg_mega_container {width: 1110px;}
 
-				/** Header style 10 **/
 				.site-header[data-header-style="10"] .main-nav .hg_mega_container {width: calc(100% - 15px);}
 				.site-header[data-header-style="10"] .site-header-bottom {margin: 0px 0 15px;}
 				body.sticky-header .site-header[data-header-style="10"].header--is-sticked .site-header-bottom {margin: 10px 0 15px;}
 
-				/** Header style 11 **/
 				.site-header[data-header-style="11"] .main-nav ul ul.sub-menu li:hover > ul {left: auto; right: 100%;}
 				.site-header[data-header-style="11"] .site-header-main-wrapper .siteheader-container {padding-top: 10px; padding-bottom: 10px;}
 
-				/** Header style 12 **/
 				.site-header[data-header-style="12"] .main-nav>ul {display: inline-block; text-align: left;}
-			/*** end Header Styles ***/
-		/**** end Header ****/
 
-
-		/**** Elements ****/
 			.media-container.custom-height {height: 800px;}
 
 			.left_sidebar {float:right;}
 
-			/* Pricing table */
 			.pricing-table-element .plan-column.featured {margin:-20px;}
 			.pricing-table-element[data-columns="1"] .plan-column.featured {width: -webkit-calc(100% + 40px); width: calc(100% + 40px);}
 			.pricing-table-element[data-columns="2"] .plan-column.featured {width: -webkit-calc(50% + 40px); width: calc(50% + 40px);}
@@ -306,26 +221,15 @@
 			.pricing-table-element[data-columns="4"] .plan-column.featured {width: -webkit-calc(25% + 40px); width: calc(25% + 40px);}
 			.pricing-table-element[data-columns="5"] .plan-column.featured {width: -webkit-calc(20% + 40px); width: calc(20% + 40px);}
 
-
-			/* Static content If it's fullscreen */
 			.static-content--fullscreen {height:100vh;}
 			.static-content--fullscreen .static-content__inner {position: relative; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
-		/**** end Elements ****/
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
 /** Laptop **/
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 
-
-	/**** Header ****/
 		.site-header-main-center {margin-right: auto; margin-left: 30px;}
 		.main-nav > ul > li > a {font-size: 12px;}
 		.main-nav ul ul.sub-menu li a {font-size: 10px;}
@@ -333,21 +237,15 @@
 		.chaser .main-menu li a { font-size: 10px;}
 		.chaser .main-menu .hg_mega_container {width: 940px;}
 
-		/*** Header Styles ***/
-			.site-header .topnav .topnav-item,
-			.site-header .topnav > a, 
-			.site-header .topnav > .topnav-item span,
-			.site-header .kl-header-toptext,
-			.site-header .kl-header-toptext a,
-			.site-header .topnav.topnav--lang .toplang-item a {font-size: 0.7rem;}
+		.site-header .topnav .topnav-item,
+		.site-header .topnav > a, 
+		.site-header .topnav > .topnav-item span,
+		.site-header .kl-header-toptext,
+		.site-header .kl-header-toptext a,
+		.site-header .topnav.topnav--lang .toplang-item a {font-size: 0.7rem;}
 
-
-		/** Header style 1 **/
 		.site-header[data-header-style="1"] .main-nav > ul > li > a {font-size: 0.7rem;}
 
-
-
-		/** Header style 4 **/
 		.site-header[data-header-style="4"] .main-menu-wrapper,
 		.site-header[data-header-style="4"] .main-nav {margin-left: 0;}
 
@@ -523,17 +421,11 @@
 	.navbar .btn-navbar {display: block; }
 	.navbar-static .navbar-inner {padding-right: 10px; padding-left: 10px; }
 
-
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
 		body.boxed-layout #page_wrapper {width: 100%; border: 0;}
 		body .kl-slideshow .scrollbarContainer {width: 100%;}
 		.hg_section .full_width {margin-left: 15px; margin-right: 15px;}
 	
 
-		/**** Header ****/
 			.topnav-item--text,
 			.topnav .topnav-item .topnav-item--text {display: none;}
 			.topnav {margin: 0 15px;}
@@ -544,45 +436,27 @@
 
 			.site-header .logo-container {padding: 10px 0;}
 
-			/*** Header Styles ***/
-
-			/** Header style 2 **/
 			.site-header[data-header-style="2"] .kl-main-header .ctabutton {padding: 10px 10px 3px;}
 
 
-			/** Header style 3 **/
 			.site-header[data-header-style="3"] .kl-cta-ribbon {margin-top: -3px;}
 
-
-			/** Header style 4 **/
 			.site-header[data-header-style="4"] .main-menu-wrapper {text-align: right;}
 
-
-			/** Header style 6 **/
 			.site-header[data-header-style="6"] .main-menu-wrapper {text-align: right;}
 
-
-			/** Header style 7 **/
 			.site-header[data-header-style="7"] .kl-cta-ribbon {margin-top: 0;}
 			body.sticky-header .site-header[data-header-style="7"].header--is-sticked .kl-cta-ribbon {margin-top: 5px;}
 
-
-			/** Header style 8 **/
 			.site-header[data-header-style="8"] .siteheader-container { margin-top: 0 !important;}
 
-
-			/** Header style 11 **/
 			.site-header[data-header-style="11"] .logo-container {padding: 10px 0;}
 			.site-header[data-header-style="11"] .header-search {margin-left: 10px;}
-		/**** end Header ****/
 
-
-		/**** Sub-header ****/
 			.subheader-maintitle {font-size: 1.5rem;}
 			.breadcrumbs li {font-size: 0.8rem;}
 
-		
-		/**** Elements ****/
+
 			.latest_posts.default-style.kl-style-2 .lp-title .m_title {font-size: 2rem;}
 
 			.newsletter-signup input { border: none; width: calc(90% - 67px);}
@@ -600,19 +474,18 @@
 
 			.gobox.ok > .far {left: 20px;}
 
-			/* Latest Posts Accordion style */
+
 			.latest_posts-acc-title {font-size:15px; line-height: 1.3; margin: 8px 0;}
 			.latest_posts-acc-text {font-size: 14px; line-height: 1.4;}
 
 			.hg-portfolio-sortable ul#thumbs li { width: 33.333% !important}
 
-			/* Grid icon boxes */
+
 			.grid-ibx--cols-4 .grid-ibx__item,
 			.grid-ibx--cols-5 .grid-ibx__item {width: 50%;}
 			.grid-ibx--style-lined-gradient.grid-ibx--cols-4 .grid-ibx__item,
 			.grid-ibx--style-lined-gradient.grid-ibx--cols-5 .grid-ibx__item {width:-webkit-calc(50% - 30px); width:calc(50% - 30px);}
 
-			/* Style 1 - horiontal odd/even */
 			.statistic-box--stl-style1.statistic-box__container {width: 100%; display:block; margin:0;}
 			.statistic-box--stl-style1 .statistic-box {position:relative; display:block; float:left; width:50%; margin-bottom: 30px; text-align: center;}
 			.statistic-box--stl-style1 .statistic-box__icon-holder {position:static; transform: none; padding-top:0; padding-bottom:0;}
@@ -620,7 +493,7 @@
 			.statistic-box--stl-style1 .statistic-box--odd .statistic-box__icon-holder {transform: none; padding-top:0; padding-bottom:0;}
 			.statistic-box--stl-style1 .statistic-box--odd .statistic-box__details {transform: none; padding-bottom:0; padding-top:0;}
 			.statistic-box--stl-style1 .statistic-box__line {display: none;}
-			/* Style 2 - horiontal odd/even */
+
 			.statistic-box--stl-style2.statistic-box__container {width: 100%; display:block; margin:0;}
 			.statistic-box--stl-style2 .statistic-box {position:relative; display:block; float:left; width:50%; margin-bottom: 30px; text-align: center;}
 			.statistic-box--stl-style2 .statistic-box__icon-holder {position:static; transform: none; padding-top:0; padding-bottom:0;}
@@ -629,7 +502,7 @@
 			.statistic-box--stl-style2 .statistic-box--odd .statistic-box__details {transform: none; padding-bottom:0; padding-top:0;}
 			.statistic-box--stl-style2 .statistic-box__line {display: none;}
 
-			/* Pricing table */
+
 			.pricing-table-element .features-column.hidesm {display: none}
 			.pricing-table-element[data-columns="1"] .features-column ~ .plan-column {width:100%;} /* with features-col */
 			.pricing-table-element[data-columns="2"] .features-column ~ .plan-column {width: -webkit-calc(100% / 2); width: calc(100% / 2);} /* with features-col */
@@ -638,7 +511,6 @@
 			.pricing-table-element[data-columns="5"] .features-column ~ .plan-column {width: -webkit-calc(100% / 5); width: calc(100% / 5);} /* with features-col */
 			.pricing-table-element .plan-column.featured {margin: -20px 0;}
 
-			/* Partners & Testimonials */
 			.ts-pt-testimonials__item--size-1,
 			.ts-pt-testimonials__item--size-2,
 			.ts-pt-testimonials__item--size-3 {width: -webkit-calc(50% - 50px); width: calc(50% - 50px);}
@@ -655,18 +527,7 @@
 			.sc__boxes {margin-top: 40px;}
 			.sc__boxes .static-content__infopop {margin: 0 15px; }
 
-			/* Services boxes style 3 */
-			.services_boxes_wgt .intro-col + ul[class*="sbox-"] {width: auto; margin-left: 0;}
-			.services_boxes_wgt .sbox-1 > li,
-			.services_boxes_wgt .sbox-2 > li,
-			.services_boxes_wgt .sbox-3 > li,
-			.services_boxes_wgt .sbox-4 > li,
-			.services_boxes_wgt .sbox-5 > li {width: 100%; margin-left: 0;}
-			.services_boxes_wgt .intro-col {float: left;  width: 100%; color:#888888; margin-bottom: 40px; padding-right: 0 !important;}
-			.services_boxes_wgt .inner-box {margin-bottom: 20px; margin-left: 0; margin-right: 0;}
-			.services_boxes_wgt .hover-details {position: static; opacity: 1; visibility: visible; clear: both; box-shadow: none; padding: 0;}
-			.services_boxes_wgt .hover-details::after {display: none;}
-
+			
 			/* Product loupe */
 			.productzoom-style .sc__screenshot {margin-top: 30px;}
 
@@ -694,19 +555,7 @@
 			.sc--showroom-carousel .static-content--fullscreen {height:auto;}
 			.sc--showroomcrs-style {max-width: 90%;}
 
-			/* FreeWall Gallery */
-			.photo-wall .isotope-item,
-			.photo-wall .grid-sizer {width: -webkit-calc( 100% / 2 ); width: calc( 100% / 2 );}
-			.photo-wall .isotope-item {padding-bottom: -webkit-calc( 100% / 2 ); padding-bottom: calc( 100% / 2 ); }
-			.photo-wall .isotope-item.width2 {width: -webkit-calc( ( 100% / 2) *2 ); width: calc( ( 100% / 2) *2 ); }
-			.photo-wall .isotope-item.height2 {padding-bottom: -webkit-calc( ( 100% / 2) *2 ); padding-bottom: calc( ( 100% / 2) *2 );}
-			.photo-wall .isotope-item {width: -webkit-calc( 100% / 2 ); width: calc( 100% / 2 ); 
-				padding-bottom: -webkit-calc( 100% / 2 ); padding-bottom: calc( 100% / 2 )}
-			.photo-wall .isotope-item.width2 {width: -webkit-calc( 100% / 2 ); width: calc( 100% / 2 )}
-			.photo-wall .isotope-item.height2 {padding-bottom: -webkit-calc( 100% / 2 ); 
-				padding-bottom: calc( 100% / 2 )}
-			.photo-wall .isotope-item:nth-child(odd):last-child {width: 100%; padding-bottom: 100%}
-
+			
 
 			/* Step boxes style 2 (go boxes) element */
 			.gobox:after,
@@ -728,32 +577,18 @@
 			.fun-fact .fun-number {font-size: 60px;}
 
 			.kl-store-page ul.products li.product {width: 50%;}
-		/**** end Elements ****/
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
-/** Tablets (landscape mode)  **/
 @media (min-width: 768px) and (max-width: 991px) {
 
 	input,
 	textarea,
 	.uneditable-input {margin-left: 0; }
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
-		/**** Header ****/
 			#zn-res-menu {width: 50%;}
 
-		/**** end Header ****/
-
-
-		/**** Elements ****/
 			.kl-iconbox__content-wrapper {clear: both;}
 
 			.kl-slideshow.iosslider-slideshow { padding-bottom: 80% !important;}
@@ -862,47 +697,21 @@
 			/* Pricing list */
 			.pricing-table-element[data-columns="5"] .plan-column .subscription-price .price {font-size: 30px;}
 			.pricing-table-element[data-columns="5"] .plan-title .inner-cell {font-size: 18px;}
-		/**** end Elements ****/
 
-
-		/**** Knowledge Base ****/
 			.post-info li:first-child {margin-left: 0;}
-		/**** end Knowledge Base ****/
 
-
-		/**** Footer ****/
 			#footer .copyright {float:left;}
 			#footer .contact-details {background: url(../images/say_hi_smaller.png) no-repeat right top;}
-		/**** end Footer ****/
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
-/** Tablets+  **/
 @media (min-width: 768px) {
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 
-	/**** Header ****/
-
-		/*** Header Styles ***/
-
-		/** Header style 9 **/
 		.site-header[data-header-style="9"] .kl-cta-ribbon {margin-top: 20px;}
 
-
-		/** Header style 11 **/
 		.site-header[data-header-style="11"] .separator {margin-bottom: 0;}
-	/**** end Header ****/
 
-
-	/**** Elements ****/
-
-		/* Process boxes */
 		.process_box .number span { transform: translateY(-50%); -webkit-transform: translateY(-50%) }
 		.process_box[data-align=right] .content { text-align: right; }
 		.process_box .content:before, .process_box .content:after { -webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
@@ -928,15 +737,6 @@
 
 		/* Latest posts */
 		.latest_posts.default-style.kl-style-2 .lp-title {margin-bottom: 0;}
-
-		/* Vertical tabs */
-		.vertical_tabs.kl-style-2 .tabbable .nav {border-right: 0;}
-		.vertical_tabs.kl-style-2 .tabbable .nav > li.active > a {border-right: 0;background-image: none;background-color: #fff;}
-		.vertical_tabs .tabbable .nav {float:left; width:20%;}
-		.vertical_tabs.kl-style-2 .tabbable .nav {width:30%;}
-		.vertical_tabs .tabbable .tab-content {float:left; width:80%; min-height: 240px; padding-left: 30px; border-left:1px solid #c2c2c2; }
-		.vertical_tabs.kl-style-2 .tabbable .tab-content {width:70%; min-height: 316px;}
-
 
 		/* Shop */
 		.limited-offers-carousel .caroufredsel_wrapper {width: calc(100% - 80px) !important;}
@@ -966,31 +766,21 @@
 		.cd-immersive-video .product-preview .product-video.has-bg-color {background: #000;}
 		.cd-immersive-video .product-preview .video-wrapper {position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden;}
 		.cd-immersive-video .product-preview video {display: block; position: absolute; left: 50%; top: 50%; bottom: auto; right: auto; -webkit-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); min-height: 100%; min-width: 100%; max-width: none; height: 100%; width: auto; background: #000;}
-	/**** end Elements ****/
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
+		
 }
 
 
 /** Tablets (portrait mode)  **/
 @media (min-width : 481px) and (max-width : 768px) {
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
-	/**** Header ****/
+	
 	.header-search .searchBtn {margin-top:0;}
 
-	/*** Header Styles ***/
-
-	/** Header style 3 **/
+	
 	.site-header[data-header-style="3"] .site-header .xs-icon { color: #252525;}
 
-
-	/**** Elements ****/
+	
 	.feature_box .title {font-size:13px;}
 	.feature_box.feature_box.style2 p {font-size:12px;}
 	.feature_box.style2 .box {min-height: 130px;}
@@ -1033,23 +823,20 @@
 	.media-container__link--style-borderanim2 .media-container__text {font-size: 26px;}
 
 
-	/**** eCommerce ****/
+	
 	.shop-features .shop-feature > h4 {font-size:14px;}
 	.shop-features .shop-feature > h5 {font-size:13px;}
 	.shop-features .shop-feature > img {margin-right:10px;}
 
 
-	/**** Footer ****/
+	
 	#footer .contact-details {background: url(../images/say_hi_smaller.png) no-repeat right top;}
 
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
-/** Smartphone landscape mode / Mini Tablet **/
+
 @media (max-width: 767px) {
 
 
@@ -1071,11 +858,6 @@
 	.input-append input {display: inline-block; width: auto; }
 
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
-		/**** Header ****/
 
 			body #header.site-header {height: auto !important; position: relative !important;}
 			body.sticky-header #header.site-header {position: fixed !important;}
@@ -1224,13 +1006,7 @@
 			.span6 + .span12.end_timeline {margin-bottom:0;}
 			.timeline_box:hover::before, .timeline_box::after {background:transparent; border:0;}
 
-			.team_member {clear: both; padding-top:10px; padding-left:10px;}
-			.team_member:before, .team_member:after {content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
-			.team_member:after {clear: both; }
-			.team_member a.grayHover {overflow: hidden; position: relative; float: left; display: inline-block; max-width: 130px; margin-right: 20px;}
-			.team_member .details {float: left; overflow: visible; visibility: visible; opacity: 1; position: static; background: none; box-shadow: none; 
-				width: auto; padding: 10px 0 0;}
-
+			
 			#skills_diagram,
 			.timeline_box:hover::before, .timeline_box::after {display:none !important;}
 
@@ -1497,53 +1273,23 @@
 			.post-info li:first-child {margin-left: 0;}
 		/**** end Knowledge Base ****/
 
-
-		/**** Coming soon page ****/
-		.offline-page .containerbox {width: 100%; margin-top: 40px;}
-		.offline-page .containerbox__logo {position: static; width: 100%; height: auto; padding-bottom: 20px;}
-		.offline-page .containerbox .site-logo {width: 100%; top: auto; -webkit-transform: none; -ms-transform: none; transform: none;float: none;}
-		.offline-page .containerbox .content {border-top: 1px solid #777;  padding: 40px 0 0;  clear: both; margin: 0; border-left: 0;}
-		.offline-page .mail_when_ready {float: none;}
-		.offline-page .ud_counter ul {width: 100%;}
-		.offline-page .ud_counter ul li {display: block; width: 100%; margin: 0; margin-bottom: 20px; font-size: 20px;}
-		.offline-page .ud_counter .till_lauch {margin: 10px 0; width: 100%; height: 70px; vertical-align: middle; }
-		.offline-page .till_lauch img {max-height: 100%;}
-		/**** end Coming soon page ****/
-
-
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
 /** Smartphone landscape mode / Mini Tablet **/
 @media (max-width: 600px) {
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-	
 
-	/**** Header ****/
 		.site-header .kl-header-toptext {display: none;}
 
-		/* Header style 4 */
 		.site-header[data-header-style="4"] .logo-container {min-width: auto;}
 		.site-header[data-header-style="4"] .kl-cart-button + .pPanel {left: -150px;}
 
-		/* Header style 5 */
 		.site-header[data-header-style="5"] .logo-container {min-width: auto;}
 
-		/* Header style 7 */
 		.site-header[data-header-style="7"] .logo-container {min-width: auto;}
 
-		/* Header style 10 */
 		.site-header[data-header-style="10"] .quote-ribbon {right: 15px;}
 
-	/**** end Header ****/
-
-
-	/**** Elements ****/
 		.tabs_style5 > ul.nav {border-bottom: none;}
 		.tabs_style5 > ul.nav > li > a {border-bottom: 2px solid transparent;}
 		.tabbable>ul.nav>li {float: none; display: block; width: 100%;}
@@ -1560,36 +1306,19 @@
 		.symbol-line::before, 
 		.symbol-line::after {width: 47%;}
 
-
-    	/* Services box */
     	.services_box {width: 100%; }
-	/**** end Elements ****/
 
-
-	/**** Knowledge Base ****/
 		.post-info li {display: block;}
-	/**** end Knowledge Base ****/
 
 		.kl-store-page ul.products li.product {width: 100%;}
-
-
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
 }
 
 
-/** Smartphone portrait mode **/
 @media (max-width: 480px) {
 
 	.visible-xxs {display: block!important; }
 	.hidden-xxs {display: none!important; }
 
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
-		/**** Header ****/
 			.nav-collapse {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); }
 			.site-logo {max-width: 100%;}
 			.loginbox-popup {width: 100%;}
@@ -1712,48 +1441,23 @@
 			/* Recent work element */
 			.recentwork_carousel__crsl .recent-work_carousel-item {padding: 0;}
 
-		/**** end Elements ****/
-
-
-		/**** KnowledgeBase ****/
+			
 			.kb-category--related-articles li {overflow: hidden;}
 			.kb-category--related-articles .likes, 
 			.kb-category--related-articles .views {clear: right;}
-		/**** KnowledgeBase ****/
-
-
-		/**** eCommerce ****/
+		
+			
 
 			.kl-store-page .left_sidebar ul.products li.product, 
 			.kl-store-page .right_sidebar ul.products li.product { width: 100% !important;}
-		/**** end eCommerce ****/
-	
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
+
+
 }
 
-
-/** Normal phone portrait mode+ **/
 @media (min-width: 320px) {
-	/*-----------------------------------------------------------------------------------*/
-	/*  Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
-
-
-	/**** Elements ****/
-
-		/* Action box */
-		.action_box .ac-btn {margin: 0 5px;}
-	/**** end Elements ****/
-
-
-	/*-----------------------------------------------------------------------------------*/
-	/*  end Kallyas EDIT
-	/*-----------------------------------------------------------------------------------*/
+	.action_box .ac-btn {margin: 0 5px;}
 }
 
-/* FIX IE10 MOBILE  1.6 */
 @-webkit-viewport{width:device-width}
 @-moz-viewport{width:device-width}
 @-ms-viewport{width:device-width}
