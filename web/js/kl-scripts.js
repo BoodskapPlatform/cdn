@@ -310,22 +310,43 @@ var KallyasConfig = {
 	if(KallyasConfig.enableStickyHeader && ! KallyasConfig.enableChaserMenu){
 		var header = $('#header');
 
+		// $(window).scroll(function(){
+		// 	var scrolled = $(window).scrollTop();
+		// 	if(scrolled < 1){
+		// 		$body.removeClass('sticky-header');
+		// 	}
+		// 	else if (scrolled > 0 && scrolled <= 9) {
+		// 		$body.addClass('sticky-header');
+		// 		header.removeClass('header--is-sticked').addClass('header--no-sticked');
+		// 	}
+		// 	else if (scrolled >= 10) {
+		// 		header.addClass('header--is-sticked');
+		// 	}
+		// 	else {
+		// 		header.removeClass('header--is-sticked').addClass('header--no-sticked');
+		// 	}
+		// });
+
+
 		$(window).scroll(function(){
 			var scrolled = $(window).scrollTop();
-			if(scrolled < 1){
-				$body.removeClass('sticky-header');
-			}
-			else if (scrolled > 0 && scrolled <= 9) {
+			if(scrolled > 1){
 				$body.addClass('sticky-header');
+				header.addClass('header--is-sticked').removeClass('header--no-sticked');
+			}
+			else if (scrolled < 0 ) {
+				$body.removeClass('sticky-header');
 				header.removeClass('header--is-sticked').addClass('header--no-sticked');
 			}
-			else if (scrolled >= 10) {
-				header.addClass('header--is-sticked');
+			else if (scrolled <= 10) {
+				$body.removeClass('sticky-header');
+				header.removeClass('header--is-sticked');
 			}
 			else {
-				header.removeClass('header--is-sticked').addClass('header--no-sticked');
+				header.addClass('header--is-sticked').removeClass('header--no-sticked');
 			}
 		});
+
 	}
 // END Sticky Header
 
